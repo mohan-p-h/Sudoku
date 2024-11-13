@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+To run this Project:
+# To Install node modules `npm install`
+# go to project folder and type `npm start` and enter
+This project run on host localhost:3000 default
+
+App.js file:
+# Contails code to intialize the Grid and handles the state
+
+Grid.js file:
+# Contains Code to create Grid and input to enter number from 1 to 9
+
+Utils.js file:
+# Implement validation and backtracking to check if the grid is solvable.
+
+Controls.js file:
+# Control buttons to Validate and Solve the Grid
+
+App.css file:
+# contains css styling for grid and Buttons

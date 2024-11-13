@@ -1,3 +1,4 @@
+/****
 .App {
   text-align: center;
 }
@@ -35,4 +36,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+****/
+
+
+/* App.css */
+.container {
+  display: flex;
+  align-items: center;    /* Vertically centers the grid */
+  justify-content: center; /* Horizontally centers the grid */
+}
+
+.sudoku-app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.sudoku-grid {
+  display: grid;
+  margin: 15px;
+  grid-template-columns: repeat(9, 1fr); /* 9 equal columns */
+  grid-template-rows: repeat(9, 1fr);    /* 9 equal rows */
+  gap: 10px;                              /* Space between cells */
+  width: 500px;                          /* Fixed width for the grid */
+  height: 500px;                         /* Fixed height for the grid */
+}
+
+.sudoku-cell {
+  width: 100%;                           /* Each cell fills its grid area */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color:  rgba(195, 222, 176, 0.984);
+  border-radius: 5px;
+}
+
+.controls {
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.validateButton {
+  width: 150px;
+  height: 30px;
+  color: beige;
+  background-color: rgb(31, 73, 73);
+  margin: 10px;
+}
+
+.solveButton {
+  width: 150px;
+  height: 30px;
+  color: beige;
+  background-color: rgb(26, 151, 20);
+  margin: 10px;
+  font-size: 18px;
 }
